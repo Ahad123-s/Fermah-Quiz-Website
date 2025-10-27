@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fermah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="Fermah Logo" class="logo" />
+    <h1>Fermah</h1>
+  </header>
+
+  <main class="quiz-container">
+    <div id="start-screen">
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-screen" class="hidden">
+      <div id="question-container">
+        <h2 id="question">Question text</h2>
+        <div id="choices"></div>
+      </div>
+      <div class="controls">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <div id="result-screen" class="hidden">
+      <h2>Your Score: <span id="score"></span>/10</h2>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="left"><strong>Aadi.XYZ</strong></div>
+    <div class="right">
+      <a href="https://x.com/Abdulahad1473" target="_blank" title="Visit my X profile">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
+             alt="X" class="x-logo" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
